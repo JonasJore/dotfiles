@@ -52,7 +52,7 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs histor
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-COMPLETION_WAITING_DOTS="true"
+#COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -110,6 +110,7 @@ alias zshconfig="vim ~/.zshrc"
 alias sourcezsh="source ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 ## etc
+alias home="cd ~"
 alias c="clear"
 alias været="curl wttr.in/oslo"
 alias moon="curl wttr.in/moon"
