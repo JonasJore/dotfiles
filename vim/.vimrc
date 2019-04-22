@@ -1,4 +1,5 @@
-syntax enable
+syntax on
+
 set number "display line number
 
 "automated vim-plug installation
@@ -15,3 +16,5 @@ call plug#begin('.vim/vim_plug')
 Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
+
+color dracula "theme that is enabled for vim
