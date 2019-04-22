@@ -1,10 +1,9 @@
 {
-    "workbench.startupEditor": "welcomePage",
     "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "vscode-great-icons",
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
     "explorer.openEditors.visible": 0,
-    "dart.flutterSdkPath": "/Users/jonasjore/Code/flutter",
+    "dart.flutterSdkPath": "~/Code/flutter",
 }
