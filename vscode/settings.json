@@ -19,7 +19,6 @@
 	"editor.fontSize": 14,
 	"explorer.openEditors.visible": 0,
 	"dart.flutterSdkPath": "~/Code/flutter",
-	//todo: put prettier-settings in a .prettierrc file
 	"prettier.jsxSingleQuote": true,
 	"prettier.printWidth": 100,
 	"prettier.semi": false,
