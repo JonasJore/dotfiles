@@ -23,5 +23,10 @@
 	"prettier.printWidth": 100,
 	"prettier.semi": false,
 	"prettier.useTabs": true,
-	"prettier.tabWidth": 2
+	"prettier.tabWidth": 2,
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"prettier.jsxBracketSameLine": true,
+	"prettier.singleQuote": true
 }
