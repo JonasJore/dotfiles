@@ -83,6 +83,6 @@ fi
 npm install -g npm
 
 #symlink all dotfiles to ~
-ln -sv $CURRENT_DIR/.zshrc ~
-ln -sv $CURRENT_DIR/.vimrc ~
+ln -sv "${CURRENT_DIR}"/.zshrc ~
+ln -sv "${CURRENT_DIR}"/.vimrc ~
 
