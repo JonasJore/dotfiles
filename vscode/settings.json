@@ -11,22 +11,19 @@
 	"terminal.external.osxExec": "iTerm.app",
 	"terminal.integrated.shell.osx": "/bin/zsh",
 	"editor.wordWrap": "on",
-	"editor.formatOnSave": true,
-	"editor.formatOnPaste": true,
 	"editor.minimap.enabled": false,
 	"editor.fontFamily": "Fira Code",
 	"editor.fontLigatures": true,
 	"editor.fontSize": 14,
 	"explorer.openEditors.visible": 0,
 	"dart.flutterSdkPath": "~/Code/flutter",
-	"prettier.jsxSingleQuote": true,
-	"prettier.printWidth": 100,
-	"prettier.semi": false,
-	"prettier.useTabs": true,
-	"prettier.tabWidth": 2,
-	"[jsonc]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"vs-kubernetes": {
+		"vs-kubernetes.helm-path": "/Users/jonasjore/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+		"vs-kubernetes.kubectl-path": "/Users/jonasjore/.vs-kubernetes/tools/kubectl/kubectl",
+		"vs-kubernetes.minikube-path": "/Users/jonasjore/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+		"vs-kubernetes.draft-path": "/Users/jonasjore/.vs-kubernetes/tools/draft/darwin-amd64/draft"
 	},
-	"prettier.jsxBracketSameLine": true,
-	"prettier.singleQuote": true
+	"java.configuration.checkProjectSettingsExclusions": false
 }
