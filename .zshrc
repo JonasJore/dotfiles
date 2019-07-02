@@ -4,24 +4,33 @@
 export PATH="$PATH:$HOME/Code/flutter/bin"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 
+export TERM="xterm-256color" #colors
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/jonasjore/.oh-my-zsh"
+
+# setting the shell
+export SHELL=/usr/bin/zsh
+
+#oh-my-zsh install location
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
-##powerlevel9k config
-POWERLEVEL9K_MODE="nerdfont-complete"
+########## powerlevel10k config ##########
+POWERLEVEL9K_MODE='nerdfont-complete'
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="▶ "
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
 
 ##custom prompt
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
+
+######### /powerlevel10k config #########
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -123,3 +132,7 @@ alias brewery='brew update && brew upgrade && brew cleanup'
 alias nrun="npm run"
 alias nins="npm install"
 alias nbld="npm run build"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/jonasjore/.sdkman"
+[[ -s "/Users/jonasjore/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/jonasjore/.sdkman/bin/sdkman-init.sh"

@@ -25,5 +25,10 @@
 		"vs-kubernetes.minikube-path": "/Users/jonasjore/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
 		"vs-kubernetes.draft-path": "/Users/jonasjore/.vs-kubernetes/tools/draft/darwin-amd64/draft"
 	},
-	"java.configuration.checkProjectSettingsExclusions": false
+	"java.configuration.checkProjectSettingsExclusions": false,
+	"explorer.confirmDragAndDrop": false,
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"explorer.confirmDelete": false
 }
