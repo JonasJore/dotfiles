@@ -6,8 +6,6 @@ set background=dark "dark background
 set number "display line number
 highlight LineNr ctermfg=grey
 
-set cursorline "highlights current line in editor
-
 set history=500 "line history for vim
 
 set updatetime=250 "updatetime
