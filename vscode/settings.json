@@ -10,25 +10,28 @@
 	"files.autoSaveDelay": 5000,
 	"terminal.external.osxExec": "iTerm.app",
 	"terminal.integrated.shell.osx": "/bin/zsh",
+	"terminal.integrated.shell.windows": "cmd.exe",
+	"terminal.integrated.shellArgs.windows": [
+		"/k",
+		"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\Tools\\VsDevCmd.bat",
+	],
 	"editor.wordWrap": "on",
-	"editor.minimap.enabled": false,
+	"editor.formatOnPaste": true,
+	"editor.minimap.enabled": true,
 	"editor.fontFamily": "Fira Code",
 	"editor.fontLigatures": true,
 	"editor.fontSize": 14,
 	"explorer.openEditors.visible": 0,
 	"dart.flutterSdkPath": "~/Code/flutter",
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
 	"editor.suggestSelection": "first",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-	"vs-kubernetes": {
-		"vs-kubernetes.helm-path": "/Users/jonasjore/.vs-kubernetes/tools/helm/darwin-amd64/helm",
-		"vs-kubernetes.kubectl-path": "/Users/jonasjore/.vs-kubernetes/tools/kubectl/kubectl",
-		"vs-kubernetes.minikube-path": "/Users/jonasjore/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
-		"vs-kubernetes.draft-path": "/Users/jonasjore/.vs-kubernetes/tools/draft/darwin-amd64/draft"
-	},
 	"java.configuration.checkProjectSettingsExclusions": false,
-	"explorer.confirmDragAndDrop": false,
-	"[javascript]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
-	},
-	"explorer.confirmDelete": false
+	"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2 }",
+	"window.zoomLevel": 0,
+	"C_Cpp.clang_format_sortIncludes": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"workbench.startupEditor": "newUntitledFile"
 }
