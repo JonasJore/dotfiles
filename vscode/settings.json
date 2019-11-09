@@ -6,6 +6,7 @@
 	},
 	"workbench.iconTheme": "vscode-great-icons",
 	"workbench.colorTheme": "Dracula",
+	"workbench.startupEditor": "newUntitledFile",
 	"files.autoSave": "afterDelay",
 	"files.autoSaveDelay": 5000,
 	"terminal.external.osxExec": "iTerm.app",
@@ -20,18 +21,18 @@
 	"editor.minimap.enabled": true,
 	"editor.fontFamily": "Fira Code",
 	"editor.fontLigatures": true,
-	"editor.fontSize": 14,
+	"editor.fontSize": 12,
+	"editor.renderWhitespace": "boundary",
+	"editor.suggestSelection": "first",
+	"javascript.updateImportsOnFileMove.enabled": "always",
 	"explorer.openEditors.visible": 0,
 	"dart.flutterSdkPath": "~/Code/flutter",
 	"[jsonc]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
-	"editor.suggestSelection": "first",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 	"java.configuration.checkProjectSettingsExclusions": false,
 	"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2 }",
 	"window.zoomLevel": 0,
 	"C_Cpp.clang_format_sortIncludes": true,
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"workbench.startupEditor": "newUntitledFile"
 }
