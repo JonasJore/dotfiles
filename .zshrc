@@ -133,6 +133,8 @@ alias nrun="npm run"
 alias nins="npm install"
 alias nbld="npm run build"
 
+alias python="python3"
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/jonasjore/.sdkman"
 [[ -s "/Users/jonasjore/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/jonasjore/.sdkman/bin/sdkman-init.sh"

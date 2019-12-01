@@ -5,7 +5,7 @@
 		"javascript": "javascriptreact"
 	},
 	"workbench.iconTheme": "vscode-great-icons",
-	"workbench.colorTheme": "Dracula",
+	"workbench.colorTheme": "Andromeda",
 	"workbench.startupEditor": "newUntitledFile",
 	"files.autoSave": "afterDelay",
 	"files.autoSaveDelay": 5000,
