@@ -127,7 +127,12 @@ alias home="cd ~"
 alias c="clear"
 alias været="curl wttr.in/oslo"
 alias moon="curl wttr.in/moon"
-alias brewery='brew update && brew upgrade && brew cleanup'
+alias brewery="brew update && brew upgrade && brew cleanup"
+#wttr api
+alias wttr="curl -4 http://www.wttr.in/Oslo"
+alias wttrHome="curl -4 http://www.wttr.in/Rjukan"
+alias moon="curl -4 http://www.wttr.in/Moon"
+
 ## npm
 alias nrun="npm run dev"
 alias nins="npm install"
