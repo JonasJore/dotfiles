@@ -129,7 +129,7 @@ alias været="curl wttr.in/oslo"
 alias moon="curl wttr.in/moon"
 alias brewery='brew update && brew upgrade && brew cleanup'
 ## npm
-alias nrun="npm run"
+alias nrun="npm run dev"
 alias nins="npm install"
 alias nbld="npm run build"
 
