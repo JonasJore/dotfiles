@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 #variables:
 CURRENT_DIR="$(cd "$(dirname "$0")"; pwd)"
 HOMEBREW_REPO="https://raw.githubusercontent.com/Homebrew/install/master/install"
