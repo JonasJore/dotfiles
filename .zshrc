@@ -27,7 +27,6 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs histor
 
 # Check for updates every n days
 export UPDATE_ZSH_DAYS=7
-
 # Displaying red dots when waiting for command completion
 COMPLETION_WAITING_DOTS="true"
 
@@ -38,35 +37,4 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
-# User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-
-######################
-### CUSTOM ALIASES ###
-######################
-alias zshconfig="vim ~/.zshrc"
-alias sourcezsh="source ~/.zshrc"
-alias ohmyzsh="vim ~/.oh-my-zsh"
-## convenvience
-alias home="cd ~"
-alias c="clear"
-alias brewery="brew update && brew upgrade && brew cleanup"
-alias python="python3"
-## npm
-alias nrun="npm run dev"
-alias nins="npm install"
-alias nbld="npm run build"
-#wttr api
-alias wttr="curl -4 http://www.wttr.in/Oslo"
-alias wttrHome="curl -4 http://www.wttr.in/Rjukan"
-alias moon="curl -4 http://www.wttr.in/Moon"
+source ~/.zsh_aliases

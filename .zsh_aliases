@@ -1,0 +1,20 @@
+######################
+### CUSTOM ALIASES ###
+######################
+alias zshconfig="vim ~/.zshrc"
+alias sourcezsh="source ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+## convenvience
+alias home="cd ~"
+alias c="clear"
+alias h="history"
+alias brewery="brew update && brew upgrade && brew cleanup"
+alias python="python3"
+## npm
+alias nrun="npm run dev"
+alias nins="npm install"
+alias nbld="npm run build"
+#wttr api
+alias wttr="curl -4 http://www.wttr.in/Oslo"
+alias wttrHome="curl -4 http://www.wttr.in/Rjukan"
+alias moon="curl -4 http://www.wttr.in/Moon"
