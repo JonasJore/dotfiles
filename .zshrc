@@ -37,4 +37,4 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source ~/.zsh_aliases
+source ~/zsh_aliases.sh
