@@ -7,7 +7,7 @@
 
 ## Plugins
 
-* [:emojisense:]() 
+* [:emojisense:]()
 * [auto rename tag]()
 * [better comments]()
 * [bracket pair colorizer]()
