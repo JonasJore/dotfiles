@@ -5,7 +5,7 @@
 		"javascript": "javascriptreact"
 	},
 	"workbench.iconTheme": "material-icon-theme",
-	"workbench.colorTheme": "Andromeda",
+	"workbench.colorTheme": "Night Owl (No Italics)",
 	"workbench.startupEditor": "newUntitledFile",
 	"files.autoSave": "afterDelay",
 	"files.autoSaveDelay": 5000,
