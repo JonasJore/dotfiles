@@ -4,7 +4,7 @@
 		"html": "html",
 		"javascript": "javascriptreact"
 	},
-	"workbench.iconTheme": "vscode-great-icons",
+	"workbench.iconTheme": "material-icon-theme",
 	"workbench.colorTheme": "Andromeda",
 	"workbench.startupEditor": "newUntitledFile",
 	"files.autoSave": "afterDelay",
@@ -22,7 +22,7 @@
 	"editor.fontFamily": "Fira Code",
 	"editor.fontLigatures": true,
 	"editor.fontSize": 12,
-	"editor.renderWhitespace": "boundary",
+	"editor.renderWhitespace": "all",
 	"editor.suggestSelection": "first",
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"explorer.openEditors.visible": 0,
@@ -35,4 +35,5 @@
 	"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2 }",
 	"window.zoomLevel": 0,
 	"C_Cpp.clang_format_sortIncludes": true,
+	"editor.useTabStops": false,
 }
