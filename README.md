@@ -9,3 +9,5 @@
                                                 |_|          
 
 ```
+
+General config and quick setup for how i like my things
