@@ -1,3 +1,6 @@
 [submodule ".zsh/prompt/.zsh/prompt/pure"]
 	path = .zsh/prompt/.zsh/prompt/pure
 	url = git@github.com:sindresorhus/pure.git
+[submodule ".zsh/pure"]
+	path = .zsh/pure
+	url = git@github.com:sindresorhus/pure.git
