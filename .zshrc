@@ -13,17 +13,11 @@ export ZSH=$HOME/.oh-my-zsh
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
-########## powerlevel10k config ##########
+#ZSH_THEME="powerlevel10k/powerlevel10k"
 
-POWERLEVEL9K_MODE='nerdfont-complete'
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="▶ "
-POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
-##custom prompt
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
-
-######### /powerlevel10k config #########
+fpath+=$HOME/.zsh/prompt/pure
+autoload -U promptinit; promptinit
+prompt pure
 
 # Check for updates every n days
 export UPDATE_ZSH_DAYS=7

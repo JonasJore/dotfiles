@@ -26,5 +26,6 @@ echo "symlinking and finishing up"
 ln -sv "${CURRENT_DIR}"/.zshrc ~
 ln -sv "${CURRENT_DIR}"/.vimrc ~
 ln -sv "${CURRENT_DIR}"/.zsh_aliases ~
+ln -sv "${CURRENT_DIR}"/.zsh ~
 
 echo "bye now!"
