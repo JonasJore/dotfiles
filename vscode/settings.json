@@ -4,7 +4,6 @@
     "html": "html",
     "javascript": "javascriptreact"
   },
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Night Owl (No Italics)",
   "workbench.startupEditor": "newUntitledFile",
   "files.autoSave": "afterDelay",
