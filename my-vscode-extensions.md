@@ -32,5 +32,4 @@
 ## Syntax Highlighting
 
 * [brewfile](https://marketplace.visualstudio.com/items?itemName=sharat.vscode-brewfile)
-* [haskell](https://marketplace.visualstudio.com/items?itemName=justusadam.language-haskell)
 * [python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
