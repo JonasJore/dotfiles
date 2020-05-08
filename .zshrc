@@ -9,14 +9,7 @@ export SHELL=/usr/bin/zsh
 #oh-my-zsh install location
 export ZSH=$HOME/.oh-my-zsh
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-
-fpath+=$HOME/.zsh/pure
-autoload -U promptinit; promptinit
-prompt pure
+ZSH_THEME="robbyrussell"
 
 # Check for updates every n days
 export UPDATE_ZSH_DAYS=7
