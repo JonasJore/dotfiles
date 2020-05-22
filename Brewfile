@@ -17,6 +17,7 @@ brew 'heroku-toolbelt'
 brew 'hub'
 brew 'nginx', restart_service: true 
 brew 'node'
+brew 'deno'
 brew 'php', restart_service: true
 brew 'python3'
 brew 'tmux'
