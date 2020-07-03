@@ -4,7 +4,16 @@
 CURRENT_DIR="$(cd "$(dirname "$0")"; pwd)"
 HOMEBREW_REPO="https://raw.githubusercontent.com/Homebrew/install/master/install"
 
-echo "welcome sir!"
+echo "   ______      _  ______ _ _                                   "
+echo "   |  _  \    | | |  ___(_) |                                  "
+echo "   | | | |___ | |_| |_   _| | ___  ___   _ __ ___ _ __   ___   "
+echo "   | | | / _ \| __|  _| | | |/ _ \/ __| | '__/ _ \ '_ \ / _ \  "
+echo "  _| |/ / (_) | |_| |   | | |  __/\__ \ | | |  __/ |_) | (_) | "
+echo " (_)___/ \___/ \__\_|   |_|_|\___||___/ |_|  \___| .__/ \___/  "
+echo "                                                 | |           "
+echo "                                                 |_|           "
+
+echo "Welcome sir!"
 
 if [ "$(uname)" == "Darwin" ]; then
   #install Homebrew

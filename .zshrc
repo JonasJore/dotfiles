@@ -9,8 +9,6 @@ export SHELL=/usr/bin/zsh
 #oh-my-zsh install location
 export ZSH=$HOME/.oh-my-zsh
 
-ZSH_THEME="robbyrussell"
-
 # Check for updates every n days
 export UPDATE_ZSH_DAYS=7
 # Displaying red dots when waiting for command completion
@@ -24,3 +22,5 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 source ~/zsh_aliases.sh
+
+eval "$(starship init zsh)"

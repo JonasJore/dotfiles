@@ -18,9 +18,7 @@
   "editor.wordWrap": "on",
   "editor.formatOnPaste": true,
   "editor.minimap.enabled": true,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 12,
+  "editor.fontFamily": "Iosevka",
   "editor.renderWhitespace": "all",
   "editor.suggestSelection": "first",
   "editor.insertSpaces": true,
@@ -37,4 +35,6 @@
   "window.zoomLevel": 0,
   "C_Cpp.clang_format_sortIncludes": true,
   "editor.useTabStops": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontSize": 13,
 }
