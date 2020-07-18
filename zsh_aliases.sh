@@ -25,3 +25,5 @@ alias killfirefox="pkill -9 firefox"
 alias wttr="curl -4 http://www.wttr.in/Oslo"
 alias wttrHome="curl -4 http://www.wttr.in/Rjukan"
 alias moon="curl -4 http://www.wttr.in/Moon"
+# etc
+alias composer="php /usr/local/bin/composer"
