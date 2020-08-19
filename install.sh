@@ -30,7 +30,7 @@ else
   echo "not a mac"
 fi
 
-# TODO: this script need to install rust and install starship prompt via caro as well
+# TODO: this script need to install rust and install starship prompt via cargo as well
 
 echo "installing Oh-my-zsh plugins"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
