@@ -1,6 +1,7 @@
 ######################
 ### CUSTOM ALIASES ###
 ######################
+
 alias zshconfig="vim ~/.zshrc"
 alias sourcezsh="source ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
@@ -15,6 +16,9 @@ alias brewery="brew update && brew upgrade && brew cleanup"
 alias python="python3"
 alias mci="mvn clean install"
 alias mcifast="mvn clean install -DskipTests"
+# python
+alias pip="pip3"
+alias python="python3"
 # npm
 alias nrun="npm run dev"
 alias nins="npm install"
