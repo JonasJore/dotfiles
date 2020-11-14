@@ -1,11 +1,6 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-call vundle#end()
-
 filetype plugin indent on
 syntax enable "enable syntax processing
 syntax sync minlines=1000
@@ -39,13 +34,3 @@ set wrap "wrap lines
 nnoremap <S-s> :w<CR>
 set incsearch " search as characters are entered
 set hlsearch " highlight matches
-
-" using the arrow keys is bad for you!
-noremap  <Up> ""
-noremap! <Up> <Esc>
-noremap  <Down> ""
-noremap! <Down> <Esc>
-noremap  <Left> ""
-noremap! <Left> <Esc>
-noremap  <Right> ""
-noremap! <Right> <Esc>
