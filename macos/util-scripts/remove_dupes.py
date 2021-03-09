@@ -19,7 +19,7 @@ def get_files_under(dirs):
       root = pathlib.Path(root)
       if dir_names:
         for dir in dir_names:
-          get_files_under(dir_names)
+          get_files_under(dir)
       for file_name in file_names:
         files_under_dir.append(str(root) + "/" + file_name)
     delete_files(files_under_dir)
