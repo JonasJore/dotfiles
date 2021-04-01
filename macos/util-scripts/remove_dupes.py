@@ -11,13 +11,13 @@ def delete_files(files):
       os.remove("./" + item)
       NUM_DUPES += 1
 
-def get_files_under(dirs):
+def get_files_under(dirs, recursive=True):
   for dir in dirs:
     crawl = os.walk(dir)
     files_under_dir = []
     for root, dir_names, file_names in crawl:
       root = pathlib.Path(root)
-      if dir_names:
+      if dir_names && recursive:
         for dir in dir_names:
           get_files_under(dir)
       for file_name in file_names:
