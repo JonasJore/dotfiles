@@ -38,6 +38,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugi
 
 echo "symlinking and finishing up"
 #symlink all dotfiles to ~
+ln -sv "${CURRENT_DIR}"/.gitconfig ~
 ln -sv "${CURRENT_DIR}"/.zshrc ~
 ln -sv "${CURRENT_DIR}"/.vimrc ~
 ln -sv "${CURRENT_DIR}"/zsh_aliases.sh ~
