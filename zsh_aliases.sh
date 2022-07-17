@@ -28,6 +28,9 @@ alias killfirefox="pkill -9 firefox"
 # wttr
 alias wttr="curl -4 http://www.wttr.in/Oslo"
 alias wttrHome="curl -4 http://www.wttr.in/Rjukan"
+alias wttrKongs="curl -4 http://www.wttr.in/Kongsberg"
 alias moon="curl -4 http://www.wttr.in/Moon"
 # etc
 alias composer="php /usr/local/bin/composer"
+# java
+alias javaLocation="/usr/libexec/java_home"
