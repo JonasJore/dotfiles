@@ -5,8 +5,6 @@
 alias zshc="vim ~/.zshrc"
 alias sourcezsh="source ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
-alias bashc="vim ~/.bash_profile"
-alias sourcebash="source ~/.bash_profile"
 # convenvience
 alias home="cd ~"
 alias c="clear"
@@ -26,5 +24,3 @@ alias wttr="curl -4 http://www.wttr.in/Oslo"
 alias wttrHome="curl -4 http://www.wttr.in/Rjukan"
 alias wttrKongs="curl -4 http://www.wttr.in/Kongsberg"
 alias moon="curl -4 http://www.wttr.in/Moon"
-# java
-alias javaLocation="/usr/libexec/java_home"

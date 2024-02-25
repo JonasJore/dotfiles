@@ -24,18 +24,14 @@ I hope this reference file can be of use to other developers or for someone that
   * Main SSD: Samsung 970 EVO Plus 1TB
   * Secondary SSD: Samsung 860 QVO 1TB
   * RAM: HyperX Fury RGB DDR4 2666MHz * 4 => 32 GB
-  * OS: Windows 10
+  * OS: Windows 11
 * Keyboard: Ducky One 2 SF (Cherry MX Brown)
 * Mouse: Razer DeathAdder Chroma 2015
-* Monitor: [Asus TUF Gaming VG27BQ 27"](https://www.asus.com/no/Displays-Desktops/Monitors/TUF-Gaming/TUF-Gaming-VG27BQ/)
+* Monitor: 2 * [Asus TUF Gaming VG27BQ 27"](https://www.asus.com/no/Displays-Desktops/Monitors/TUF-Gaming/TUF-Gaming-VG27BQ/)
 
 ### Gear
 
-* Laptop: Apple Macbook Air 2016 (Current)
-* Phone: OnePlus 9 Pro
-* Headphones: Sony WH-1000-XM3
+* Laptop: Apple Macbook Macbook Pro (2019) with intel CPU
+* Phone: iPhone 14 pro
+* Headphones: Sony WH-1000-XM5
 * Music: Spotify
-
-#### Apple Macbook Air 2016 System Specs  
-
-macbook pro 2019 Intel i7 16 GB Ram  
