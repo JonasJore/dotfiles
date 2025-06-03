@@ -9,9 +9,9 @@ I hope this reference file can be of use to other developers or for someone that
 
 * Terminal emulator: Iterm 2
 * Terminal shell: ZSH. [zsh config](https://github.com/JonasJore/dotfiles/blob/master/.zshrc)
-* Code editor: VS Code
-* IDE: IntelliJ & Android Studio
-* Browser: Firefox
+* Code editor: Neovim
+* IDE: IntelliJ, Android Studio & XCode
+* Browser: Zen Browser
 * Favorite coding font: [Iosevka](https://github.com/be5invis/Iosevka) (I love this font ❤️)
 
 ### Office Setup
@@ -25,13 +25,13 @@ I hope this reference file can be of use to other developers or for someone that
   * Secondary SSD: Samsung 860 QVO 1TB
   * RAM: HyperX Fury RGB DDR4 2666MHz * 4 => 32 GB
   * OS: Windows 11
-* Keyboard: Ducky One 2 SF (Cherry MX Brown)
-* Mouse: Razer DeathAdder Chroma 2015
-* Monitor: 2 * [Asus TUF Gaming VG27BQ 27"](https://www.asus.com/no/Displays-Desktops/Monitors/TUF-Gaming/TUF-Gaming-VG27BQ/)
+* Keyboard: Ducky One 3 Mini
+* Mouse: Logitech Pro Superlight
+* Monitor: [Asus TUF Gaming VG27BQ 27"](https://www.asus.com/no/Displays-Desktops/Monitors/TUF-Gaming/TUF-Gaming-VG27BQ/)
 
 ### Gear
 
-* Laptop: Apple Macbook Macbook Pro (2019) with intel CPU
+* Laptop: Apple Macbook Macbook Pro (2021)
 * Phone: iPhone 14 pro
-* Headphones: Sony WH-1000-XM5
+* Headphones: Apple Airpods Pro
 * Music: Spotify
