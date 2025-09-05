@@ -110,10 +110,10 @@ source $(brew --prefix nvm)/nvm.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 alias c="clear"
-alias ttyconfig="emacs .config/ghostty/config"
+alias ttyconfig="nvim .config/ghostty/config"
 alias home="cd ~"
 alias sourcezsh="source ~/.zshrc"
-alias zshconfig="emacs ~/.zshrc"
+alias zshconfig="nvim ~/.zshrc"
 alias py="python3"
 alias another="brew update && brew upgrade"
 alias lg="lazygit"
@@ -130,8 +130,5 @@ source <(fzf --zsh)
 # Created by `pipx` on 2025-01-28 05:49:46
 export PATH="$PATH:/Users/jonasjore/.local/bin"
 export PATH="$HOME/.local/bin:$PATH"
-export EMACSDIR="$HOME/.config/emacs"
-export DOOMDIR="$HOME/.config/doom"
-export PATH="$HOME/.emacs.d/bin:$PATH"
 
 eval "$(starship init zsh)"
