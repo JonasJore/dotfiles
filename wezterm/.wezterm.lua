@@ -14,5 +14,8 @@ config.initial_rows = 28
 config.font_size = 12
 config.color_scheme = "Catppuccin Macchiato"
 
+config.send_composed_key_when_left_alt_is_pressed = true
+config.send_composed_key_when_right_alt_is_pressed = true
+
 -- Finally, return the configuration to wezterm:
 return config
