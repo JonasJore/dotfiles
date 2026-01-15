@@ -117,6 +117,7 @@ alias zshconfig="nvim ~/.zshrc"
 alias py="python3"
 alias another="brew update && brew upgrade"
 alias lg="lazygit"
+alias update-nvim="bob update nihgtly"
 
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
