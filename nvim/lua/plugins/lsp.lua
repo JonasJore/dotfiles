@@ -14,6 +14,20 @@ return {
       -- go
       gopls = {},
       tailwindcss = {},
+      svelte = {},
+    },
+  },
+  {
+
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      ensure_installed = { "svelte", "lua", "typescript", "rust", "javascript", "python", "rust", "go" },
+    },
+  },
+  {
+    "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = { "svelte-language-server" },
     },
   },
 }
