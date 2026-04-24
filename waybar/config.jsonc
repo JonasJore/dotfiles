@@ -9,17 +9,30 @@
 
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["custom/enpass", "pulseaudio", "network", "clock"],
+    "modules-right": ["memory", "network#download", "network#upload", "custom/enpass", "pulseaudio", "network", "clock"],
 
     "hyprland/workspaces": {
         "format": "{id}",
         "on-click": "activate",
         "sort-by-number": true
     },
-
     "hyprland/window": {
         "format": "{}",
         "max-length": 50
+    },
+    "memory": {
+        "format": "󰍛 {}%",
+        "interval": 2
+    },
+    "network#download": {
+        "format": "↓ {bandwidthDownBits}",
+        "interval": 2,
+        "tooltip": false
+    },
+    "network#upload": {
+        "format": "↑ {bandwidthUpBits}",
+        "interval": 2,
+        "tooltip": false
     },
     "custom/enpass": {
         "format": "enpass",

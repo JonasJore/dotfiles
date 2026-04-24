@@ -59,6 +59,29 @@ window#waybar {
     margin: 4px 2px;
     font-weight: bold;
 }
+#memory {
+    color: #bb9af7;
+    background: #2a2b3d;
+    border-radius: 8px;
+    padding: 2px 12px;
+    margin: 4px 2px;
+}
+
+#network.download {
+    color: #9ece6a;
+    background: #2a2b3d;
+    border-radius: 8px;
+    padding: 2px 12px;
+    margin: 4px 2px;
+}
+
+#network.upload {
+    color: #f7768e;
+    background: #2a2b3d;
+    border-radius: 8px;
+    padding: 2px 12px;
+    margin: 4px 2px;
+}
 #custom-enpass {
     color: #7aa2f7;
     background: #2a2b3d;
