@@ -118,6 +118,7 @@ alias py="python3"
 alias another="brew update && brew upgrade"
 alias lg="lazygit"
 alias update-nvim="bob update nihgtly"
+alias ghostty-themes="ghostty +list-themes"
 
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
