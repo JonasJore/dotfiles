@@ -1,5 +1,16 @@
 font-family = GohuFont uni14 Nerd Font Mono
 font-size = 14
+
+font-synthetic-style = false
+font-thicken = false
+
+bold-is-bright = true
+
+cursor-style = block
+cursor-style-blink = false
+
+adjust-cell-height = 2
+
 theme = "Catppuccin Macchiato"
 
 
