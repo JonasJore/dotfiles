@@ -118,6 +118,7 @@ alias py="python3"
 alias another="brew update && brew upgrade"
 alias lg="lazygit"
 alias update-nvim="bob update nihgtly"
+alias ghostty-themes="ghostty +list-themes"
 
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
@@ -133,3 +134,7 @@ export PATH="$PATH:/Users/jonasjore/.local/bin"
 export PATH="$HOME/.local/bin:$PATH"
 
 eval "$(starship init zsh)"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
